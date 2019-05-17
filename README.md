@@ -6,12 +6,14 @@
 
 # Yapılacaklar:
 
-- Spawnlar ayarlanacak.
+- Spawnlar eklenecek.
+- Türkçe rehberler eklenecek.
 
 # 0fir Executes:
 
 - databases.cfg
 
+```
 "executes"
 {
         "driver"            "sqlite"
@@ -20,6 +22,7 @@
         "user"                "root"
         "pass"                ""
 }
+```
 
 - Admin Commands:
 
@@ -36,5 +39,7 @@ First type !edit to enable edit mode, to add spawns for the ct's stand wherever 
 - Creating Executes and Spawns
 
 No default spawns or executes are provided. You must launch the editor and add them yourself. It's kind of hard to work with, so feel free to submit a pull request to make it better.
+
+- Admin Commands:
 
 !edit: launches the editor, opens the edit menu. You will use this a lot !setname: sets the name of the spawn/execute being edited !clearbuffers: clears any spawn/execute edit buffers
